@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>#StopChatControl — Protect Your Privacy</title>
+    <meta
+      name="description"
+      content="A website warning about the dangers of Chat Control in the EU. Defending privacy and freedom of speech."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="fade-up">
+        <div class="brand">
+          <div class="logo">STOP</div>
+          <div>
+            <div class="title">#StopChatControl</div>
+            <div class="sub">Protect privacy and freedom of speech</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button
+            onclick="window.location.href='indexpolish.html'"
+            class="btn btn-ghost lang-btn"
+          >
+            🇵🇱 Polish
+          </button>
+        <div class="nav-toggle" onclick="toggleNav()">☰</div>
+        <nav>
+          <a href="#overview">Overview</a>
+          <a href="#impacts">Consequences</a>
+          <a href="#technical">Technical</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#sources">Sources</a>
+        </nav>
+      </header>
+
+      <!-- HERO -->
+      <section class="hero fade-up delay-1" id="overview">
+        <div>
+          <h1>The EU (still) wants to scan all your messages and photos!</h1>
+          <p class="lead">
+            The “Chat Control” proposal would mandate the scanning of all
+            private digital communication — including encrypted messages and
+            images. It threatens the fundamental rights to privacy and digital
+            security of every EU citizen.
+          </p>
+
+          <div class="actions">
+            <button
+              class="btn btn-hero"
+              onclick="document.getElementById('impacts').scrollIntoView({behavior:'smooth'})"
+            >
+              Learn more
+            </button>
+            <button
+              class="btn btn-ghost"
+              onclick="document.getElementById('sources').scrollIntoView({behavior:'smooth'})"
+            >
+              Check sources
+            </button>
+          </div>
+        </div>
+        <aside class="hero-aside fade-up delay-2">
+          <div style="display: flex; gap: 12px; align-items: center">
+            <div style="flex: 1">
+              <div style="font-weight: 800">
+                The goal of the #StopChatControl movement
+              </div>
+              <div class="muted" style="margin-top: 6px">
+                We present the facts and real risks of Chat Control. We mobilize
+                citizens to defend privacy.
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="impacts" class="fade-up" style="margin-top: 36px">
+        <div class="card">
+          <h2>Impact on every citizen</h2>
+          <p class="muted">
+            Every photo, every message, every file would be automatically
+            scanned — without your consent or knowledge. This is not about
+            catching criminals. It’s mass surveillance forced upon all 450
+            million EU citizens.
+          </p>
+
+          <div class="grid-3" style="margin-top: 20px">
+            <div class="card">
+              <div class="icon-circle">📱</div>
+              <h4>Mass surveillance</h4>
+              <p class="muted">
+                Every private message, image, and file scanned automatically —
+                no exceptions*, even encrypted communication.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🔓️</div>
+              <h4>Breaking encryption</h4>
+              <p class="muted">
+                Weakening or breaking end-to-end encryption exposes everyone’s
+                communication — financial, medical, and personal — to hackers
+                and cybercriminals.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">⚖️</div>
+              <h4>Fundamental rights</h4>
+              <p class="muted">
+                Undermines your basic rights to privacy and data protection
+                (Articles 7 and 8 of the EU Charter of Fundamental Rights) — the
+                core of democratic European values.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🎯</div>
+              <h4>False positives</h4>
+              <p class="muted">
+                Automated algorithms often misclassify innocent content — like
+                vacation photos or private jokes — as illegal, exposing people
+                to false accusations.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">👨‍👩‍👧‍👦</div>
+              <h4>Ineffective child protection</h4>
+              <p class="muted">
+                Experts and organizations, including the UN, warn that mass
+                surveillance doesn’t protect children — it puts everyone at
+                risk, weakening security and diverting resources from proven
+                protection methods.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🌍</div>
+              <h4>A global precedent</h4>
+              <p class="muted">
+                Creates a dangerous global precedent — governments could scan
+                everyone’s communications under the guise of “safety” or “child
+                protection.”
+              </p>
+            </div>
+
+            <div class="full-note">
+              EU politicians would be exempt from surveillance under the excuse
+              of “professional secrecy.”<br />
+              They’d be protected. You and your family wouldn’t. Demand
+              fairness.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECHNICAL -->
+      <section id="technical" class="fade-up delay-3">
+        <div class="card">
+          <h2>Technical aspect — how does Chat Control work?</h2>
+          <p class="muted">
+            The EU is considering several surveillance methods:
+          </p>
+          <div style="margin-top: 14px" class="threats">
+            <div class="card">
+              <div class="icon-circle">🖥️</div>
+              <h3>Server-side scanning</h3>
+              <p class="muted">
+                All messages are sent to a server where they are analyzed. Zero
+                privacy, high risk of data leaks.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">📱</div>
+              <h3>Client-side scanning (that means you!)</h3>
+              <p class="muted">
+                Content analyzed directly on the user’s device. Can introduce
+                <span class="backdoor-link" style="color: blue; cursor: pointer"
+                  >backdoors</span
+                >
+                and increase vulnerability to attacks.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">📃</div>
+              <h3>Metadata analysis</h3>
+              <p class="muted">
+                Who sends what, when, and to whom — surveillance without even
+                reading message content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BACKDOOR INFO PANEL -->
+      <div id="backdoor-panel">
+        <div class="content">
+          <span class="close">✖</span>
+          <h3>Backdoor</h3>
+          <p>
+            A backdoor is a hidden mechanism in software that allows a third
+            party to gain unauthorized access to a user’s system or data.
+          </p>
+        </div>
+      </div>
+
+      <!-- TIMELINE -->
+      <section id="timeline" class="fade-up" style="margin-top: 22px">
+        <div class="card">
+          <h2>Chat Control Timeline</h2>
+          <div class="timeline">
+            <div class="titem">
+              <div class="date">2025</div>
+              <div class="body">
+                Over 500 cryptography experts warn about abuse risks and
+                security flaws. The EU vote decides the future of digital
+                privacy.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2023</div>
+              <div class="body">
+                The European Parliament and member states criticize the plan for
+                violating privacy and end-to-end encryption.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2022</div>
+              <div class="body">
+                Chat Control 2.0 – a proposal for mandatory scanning of all
+                messages, including encrypted ones. Experts sound the alarm.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2020</div>
+              <div class="body">
+                The EU allows voluntary scanning of messages for CSAM – the
+                first step toward mass surveillance.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOURCES -->
+      <section id="sources" class="fade-up" style="margin-top: 22px">
+        <div class="card">
+          <h2>Sources and documents</h2>
+          <div class="sources">
+            <ul>
+              <li>
+                <a
+                  href="https://european-union.europa.eu/institutions-law-budget/law/find-legislation_en"
+                  >Official EU documents — EUR-Lex</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://gdpr.pl/incydenty-ochrony-danych-osobowych-w-2022-raport-zwiazku-firm-ochrony-danych-osobowych"
+                  >ZFODO Report: Data Protection Incidents in 2022</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.gov.pl/web/baza-wiedzy/analiza-bezpieczenstwa-polskiego-internetu-w-2024-roku"
+                  >CERT Polska: Analysis of Polish Internet Security 2024</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="fade-up" style="margin-top: 28px">
+        <div style="font-weight: 700">#StopChatControl</div>
+        <div class="muted">
+          Informational website. All content is based on public sources.
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleFaq(el) {
+        const a = el.nextElementSibling;
+        if (!a) return;
+        a.hidden = !a.hidden;
+      }
+
+      function toggleNav() {
+        const nav = document.querySelector("nav");
+        const toggle = document.querySelector(".nav-toggle");
+        nav.classList.toggle("show");
+        toggle.classList.toggle("active");
+      }
+
+      function closeNav() {
+        const nav = document.querySelector("nav");
+        const toggle = document.querySelector(".nav-toggle");
+        nav.classList.remove("show");
+        toggle.classList.remove("active");
+      }
+
+      function highlightActiveSection() {
+        const sections = document.querySelectorAll("section[id], div[id]");
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        if (sections.length === 0 || navLinks.length === 0) return;
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const activeLink = document.querySelector(
+                  `nav a[href="#${entry.target.id}"]`
+                );
+                navLinks.forEach((link) => link.classList.remove("active"));
+                if (activeLink) {
+                  activeLink.classList.add("active");
+                }
+              }
+            });
+          },
+          { threshold: 0.3, rootMargin: "-100px 0px -50% 0px" }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Fade-up animations
+        document.querySelectorAll(".fade-up").forEach((el, i) => {
+          el.style.animation = `fadeUp .6s ease ${i * 0.06}s forwards`;
+        });
+
+        // Backdoor panel
+        const backdoorLink = document.querySelector(".backdoor-link");
+        const backdoorPanel = document.getElementById("backdoor-panel");
+        if (backdoorLink && backdoorPanel) {
+          const closeBtn = backdoorPanel.querySelector(".close");
+          backdoorLink.addEventListener("click", () => {
+            backdoorPanel.style.display = "flex";
+          });
+          if (closeBtn) {
+            closeBtn.addEventListener("click", () => {
+              backdoorPanel.style.display = "none";
+            });
+          }
+          backdoorPanel.addEventListener("click", (e) => {
+            if (e.target === backdoorPanel)
+              backdoorPanel.style.display = "none";
+          });
+        }
+
+        // Init active section observer
+        highlightActiveSection();
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('nav a[href^="#"]').forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute("href").slice(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+            closeNav();
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

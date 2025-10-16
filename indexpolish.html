@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>#StopChatControl — Chroń swoją prywatność</title>
+    <meta
+      name="description"
+      content="Strona ostrzegająca przed zagrożeniami Chat Control w UE. Chronimy prywatność i wolność słowa."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="fade-up">
+        <div class="brand">
+          <div class="logo">STOP</div>
+          <div>
+            <div class="title">#StopChatControl</div>
+            <div class="sub">Chroń prywatność i wolność słowa</div>
+          </div>
+        </div>
+        <button
+          onclick="window.location.href='index.html'"
+          class="btn btn-ghost lang-btn"
+        >
+          🇬🇧 English
+        </button>
+        <div class="nav-toggle" onclick="toggleNav()">☰</div>
+        <nav>
+          <a href="#overview">Wstęp</a>
+          <a href="#impacts">Konsekwencje</a>
+          <a href="#technical">Technicznie</a>
+          <a href="#timeline">Oś czasu</a>
+          <a href="#sources">Źródła</a>
+        </nav>
+      </header>
+
+      <!-- HERO -->
+      <section class="hero fade-up delay-1" id="overview">
+        <div>
+          <h1>
+            Unia (nadal) chce skanować wszystkie twoje wiadomości i zdjęcia!
+          </h1>
+          <p class="lead">
+            Propozycja „Chat Control” nakazywałaby skanowanie całej prywatnej
+            komunikacji cyfrowej, w tym zaszyfrowanych wiadomości i zdjęć.
+            Zagraża to podstawowym prawom do prywatności i bezpieczeństwu
+            cyfrowemu wszystkich obywateli UE.
+          </p>
+          <div class="actions">
+            <button
+              class="btn btn-hero"
+              onclick="document.getElementById('impacts').scrollIntoView({behavior:'smooth'})"
+            >
+              Dowiedz się więcej
+            </button>
+            <button
+              class="btn btn-ghost"
+              onclick="document.getElementById('sources').scrollIntoView({behavior:'smooth'})"
+            >
+              Sprawdź źródła
+            </button>
+          </div>
+        </div>
+        <aside class="hero-aside fade-up delay-2">
+          <div style="display: flex; gap: 12px; align-items: center">
+            <div style="flex: 1">
+              <div style="font-weight: 800">Cel ruchu #StopChatControl</div>
+              <div class="muted" style="margin-top: 6px">
+                Przedstawiamy fakty i realne zagrożenia Chat Control.
+                Mobilizujemy obywateli do obrony prywatności.
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="impacts" class="fade-up" style="margin-top: 36px">
+        <div class="card">
+          <h2>Wpływ na każdego obywatela</h2>
+          <p class="muted">
+            Każde zdjęcie, każda wiadomość i każdy plik będzie automatycznie
+            skanowany — bez Twojej zgody i świadomości. Tu nie chodzi o łapanie
+            przestępców. To masowa inwigilacja narzucona wszystkim 450 milionom
+            obywateli UE.
+          </p>
+
+          <div class="grid-3" style="margin-top: 20px">
+            <div class="card">
+              <div class="icon-circle">📱</div>
+              <h4>Masowa inwigilacja</h4>
+              <p class="muted">
+                Każda prywatna wiadomość, zdjęcie i plik skanowane
+                automatycznie: bez wyjątku*, nawet szyfrowana komunikacja.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🔓️</div>
+              <h4>Łamanie szyfrowania</h4>
+              <p class="muted">
+                Osłabienie lub złamanie szyfrowania end-to-end naraża
+                komunikację wszystkich — także dane finansowe, medyczne i
+                prywatne — na ataki hakerów i cyberprzestępców.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">⚖️</div>
+              <h4>Podstawowe prawa</h4>
+              <p class="muted">
+                Podważa Twoje podstawowe prawa do prywatności i ochrony danych
+                (Artykuły 7 i 8 Karty Praw Podstawowych UE), kluczowe dla
+                europejskich wartości demokratycznych.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🎯</div>
+              <h4>Fałszywe alarmy</h4>
+              <p class="muted">
+                Automatyczne algorytmy często błędnie klasyfikują niewinne
+                treści — np. zdjęcia z wakacji czy prywatne żarty — jako
+                nielegalne, narażając ludzi na fałszywe oskarżenia.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">👨‍👩‍👧‍👦</div>
+              <h4>Nieskuteczna ochrona dzieci</h4>
+              <p class="muted">
+                Eksperci i organizacje, w tym ONZ, ostrzegają, że masowa
+                inwigilacja nie chroni dzieci, a wręcz je naraża, osłabiając
+                bezpieczeństwo wszystkich i odciągając środki od sprawdzonych
+                działań ochronnych.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">🌍</div>
+              <h4>Globalny precedens</h4>
+              <p class="muted">
+                Tworzy niebezpieczny precedens na świecie, gdzie rządy mogą
+                masowo skanować komunikację wszystkich obywateli pod pretekstem
+                bezpieczeństwa lub ochrony dzieci.
+              </p>
+            </div>
+
+            <div class="full-note">
+              Politycy UE nie będą podlegać inwigilacji pod płaszczykiem
+              "tajemnicy zawodowej".<br />
+              Będą chronieni. Ty i Twoja rodzina nie. Domagajmy się uczciwości.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECHNICAL -->
+      <section id="technical" class="fade-up delay-3">
+        <div class="card">
+          <h2>Aspekt techniczny — jak działa Chat Control?</h2>
+          <p class="muted">UE rozważa kilka metod inwigilacji:</p>
+          <div style="margin-top: 14px" class="threats">
+            <div class="card">
+              <div class="icon-circle">🖥️</div>
+              <h3>Skanowanie po stronie serwera</h3>
+              <p class="muted">
+                Wszystkie wiadomości trafiają na serwer, gdzie są analizowane.
+                Brak prywatności i ryzyko wycieków.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">📱</div>
+              <h3>Skanowanie po stronie klienta (ciebie!)</h3>
+              <p class="muted">
+                Analiza treści na urządzeniu użytkownika. Może wprowadzać
+                <span class="backdoor-link" style="color: blue; cursor: pointer"
+                  >backdoory</span
+                >
+                i zwiększa podatność na ataki.
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon-circle">📃</div>
+              <h3>Analiza metadanych</h3>
+              <p class="muted">
+                Informacje o tym kto, kiedy i jakie pliki wysyła — ingerencja w
+                prywatność nawet bez odczytu treści.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BACKDOOR INFO PANEL -->
+      <div id="backdoor-panel">
+        <div class="content">
+          <span class="close">✖</span>
+          <h3>Backdoor</h3>
+          <p>
+            Backdoor to ukryty mechanizm w oprogramowaniu, który pozwala osobie
+            trzeciej uzyskać nieautoryzowany dostęp do systemu lub danych
+            użytkownika.
+          </p>
+        </div>
+      </div>
+
+      <!-- TIMELINE -->
+      <section id="timeline" class="fade-up" style="margin-top: 22px">
+        <div class="card">
+          <h2>Oś czasu Chat Control</h2>
+          <div class="timeline">
+            <div class="titem">
+              <div class="date">2020</div>
+              <div class="card">
+                UE umożliwia dobrowolne skanowanie wiadomości pod kątem CSAM –
+                pierwszy krok w kierunku masowej inwigilacji.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2022</div>
+              <div class="card">
+                Chat Control 2.0 – propozycja obowiązkowego skanowania
+                wiadomości, w tym szyfrowanych. Eksperci biją na alarm.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2023</div>
+              <div class="card">
+                Parlament Europejski i państwa członkowskie krytykują pomysł
+                naruszania prywatności i szyfrowania end-to-end.
+              </div>
+            </div>
+            <div class="titem">
+              <div class="date">2025</div>
+              <div class="card">
+                Ponad 500 ekspertów ds. kryptografii ostrzega przed ryzykiem
+                nadużyć i luk w bezpieczeństwie. Głosowanie w UE decydujące o
+                przyszłości kontroli komunikacji.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+
+      <!-- SOURCES -->
+      <section id="sources" class="fade-up" style="margin-top: 22px">
+        <div class="card">
+          <h2>Źródła i dokumenty</h2>
+          <div class="sources">
+            <ul>
+              <li>
+                <a
+                  href="https://european-union.europa.eu/institutions-law-budget/law/find-legislation_pl"
+                  >Oficjalne dokumenty UE – EUR-Lex</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://gdpr.pl/incydenty-ochrony-danych-osobowych-w-2022-raport-zwiazku-firm-ochrony-danych-osobowych"
+                  >Raport ZFODO: Incydenty ochrony danych osobowych w 2022</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.gov.pl/web/baza-wiedzy/analiza-bezpieczenstwa-polskiego-internetu-w-2024-roku"
+                  >Analiza bezpieczeństwa polskiego internetu w 2024 roku – CERT
+                  Polska</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="fade-up" style="margin-top: 28px">
+        <div style="font-weight: 700">#StopChatControl</div>
+        <div class="muted">
+          Strona informacyjna. Wszystkie treści oparte na publicznych źródłach.
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleFaq(el) {
+        const a = el.nextElementSibling;
+        if (!a) return;
+        a.hidden = !a.hidden;
+      }
+
+      function toggleNav() {
+        const nav = document.querySelector("nav");
+        const toggle = document.querySelector(".nav-toggle");
+
+        // Toggle klas
+        nav.classList.toggle("show");
+        toggle.classList.toggle("active");
+      }
+
+      // Zamyka menu
+      function closeNav() {
+        const nav = document.querySelector("nav");
+        const toggle = document.querySelector(".nav-toggle");
+
+        nav.classList.remove("show");
+        toggle.classList.remove("active");
+      }
+
+      // Podświetla aktywny link na podstawie sekcji
+      function highlightActiveSection() {
+        const sections = document.querySelectorAll("section[id], div[id]");
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        if (sections.length === 0 || navLinks.length === 0) return;
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const activeLink = document.querySelector(
+                  `nav a[href="#${entry.target.id}"]`
+                );
+
+                // Usuwa active ze wszystkich linków
+                navLinks.forEach((link) => link.classList.remove("active"));
+
+                // Dodaje active do aktualnego
+                if (activeLink) {
+                  activeLink.classList.add("active");
+                }
+              }
+            });
+          },
+          {
+            threshold: 0.3,
+            rootMargin: "-100px 0px -50% 0px",
+          }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Animacje fade-up
+        document.querySelectorAll(".fade-up").forEach((el, i) => {
+          el.style.animation = `fadeUp .6s ease ${i * 0.06}s forwards`;
+        });
+
+        // backdoor panel
+        const backdoorLink = document.querySelector(".backdoor-link");
+        const panel = document.getElementById("backdoor-panel");
+
+        if (backdoorLink && panel) {
+          const closeBtn = panel.querySelector(".close");
+
+          backdoorLink.addEventListener("click", () => {
+            panel.style.display = "flex";
+          });
+          if (closeBtn) {
+            closeBtn.addEventListener("click", () => {
+              panel.style.display = "none";
+            });
+          }
+          panel.addEventListener("click", (e) => {
+            if (e.target === panel) panel.style.display = "none";
+          });
+        }
+
+        // Inicjalizacja menu nawigacji
+        highlightActiveSection();
+
+        // Zamyka menu po kliknięciu w link
+        document.querySelectorAll("nav a").forEach((link) => {
+          link.addEventListener("click", closeNav);
+        });
+
+        // Zamyka menu po naciśnięciu ESC
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            closeNav();
+          }
+        });
+
+        // Zamyka menu po kliknięciu poza nim
+        document.addEventListener("click", (e) => {
+          const nav = document.querySelector("nav");
+          const toggle = document.querySelector(".nav-toggle");
+
+          if (
+            nav.classList.contains("show") &&
+            !nav.contains(e.target) &&
+            !toggle.contains(e.target)
+          ) {
+            closeNav();
+          }
+        });
+
+        // Smooth scroll dla linków anchor
+        document.querySelectorAll('nav a[href^="#"]').forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute("href").slice(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
