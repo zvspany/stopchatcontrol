@@ -4,6 +4,8 @@
 
 ---
 
+# https://zvspany.github.io/stopchatcontrol/
+
 ## 🌐 Overview
 **#StopChatControl** warns about the EU's controversial "Chat Control" proposal.  
 It threatens the **privacy** and **freedom of speech** of all EU citizens by proposing mandatory scanning of all messages and images, including encrypted communication.
