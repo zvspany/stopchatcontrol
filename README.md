@@ -6,7 +6,7 @@
 
 ## 🖥️ Live Demo
 
-[View the page live](https://zvspany.github.io/bio/)
+[View the page live](https://zvspany.github.io/stopchatcontrol/)
 
 ---
 
