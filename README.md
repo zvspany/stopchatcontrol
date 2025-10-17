@@ -4,7 +4,11 @@
 
 ---
 
-# https://zvspany.github.io/stopchatcontrol/
+## 🖥️ Live Demo
+
+[View the page live](https://zvspany.github.io/bio/)
+
+---
 
 ## 🌐 Overview
 **#StopChatControl** warns about the EU's controversial "Chat Control" proposal.  
