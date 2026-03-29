@@ -1,3 +1,10 @@
+> **Repository moved**
+>
+> Active development continues at:
+> https://git.zvcloud.net/zv/stopchatcontrol
+>
+> This GitHub repository is archived and no longer accepts issues or pull requests.
+
 # 🚫 #StopChatControl — Protect Your Privacy
 
 ![StopChatControl Logo](icon.png)
